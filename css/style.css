@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-info{
+    align-items: center;
+    font-size: 16px;
+}
+
+.header-logo{
+    width: 246px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-socials{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+#insta, #vk {
+    width: 48px;
+    height: 48px;
+    display: block;
+}
+
+#insta {
+    background: url("images/insta.png") no-repeat center/cover;
+}
+
+#insta:hover {
+    background: url("images/insta_hover.png") no-repeat center/cover;
+}
+
+#vk {
+    background: url("images/vk.png") no-repeat center/cover;
+}
+
+#vk:hover {
+    background: url("images/vk_hover.png") no-repeat center/cover;
+}
+
+nav{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00AFCC;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-menu li {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.nav-menu li:hover {
+    color: #FF6600;
+    text-decoration: underline;
+}
+
+.constructor {
+    padding-right: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.constructor:hover {
+    color: #FF6600;
+    text-decoration: underline;
+}
